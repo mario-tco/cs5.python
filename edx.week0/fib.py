@@ -6,9 +6,8 @@ memory = {}
 def main():
     number = input("Gimme a number: ")
     result = fib(int(number))
-    print("Fibonacci of " , (number), " is ", str(result))
-    
-    
+    print("Fibonacci of " , number, " is ", result)
+        
 def fib(number):
     if(number<=2):
         return 1
